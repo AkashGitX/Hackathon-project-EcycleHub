@@ -1,53 +1,30 @@
-Project Description
-EcycleHub is a web application developed in Java that bridges the gap between individuals who wish to donate reusable products and organizations that seek to repurpose them. In today’s fast-paced world, reusable items such as clothes, electronics, furniture, and books are discarded daily, contributing to environmental waste. At the same time, many NGOs, businesses, and social organizations are in constant need of such items.
+1️⃣ About EcycleHub:
+EcycleHub is a Java-based web application designed to connect people who want to donate reusable items (like clothes, electronics, furniture, and books) with NGOs and organizations looking to repurpose them — promoting sustainability and reducing environmental waste.
 
-EcycleHub provides a sustainable digital platform where:
+2️⃣ Core Features:
+✔ Public users can donate items with details like name, category, location, and contact info.
+✔ Organizers can view, review, and arrange for reuse or redistribution of the donated items.
+✔ Location-based listing helps in identifying region-specific donations.
+✔ Focuses on promoting a circular economy and reducing landfill waste.
 
-Public users can donate recyclable products with proper location, name, and contact information.
-Organizers can access the donated items, review the submissions, and make arrangements to reuse or distribute them.
-By encouraging reuse, EcycleHub supports a *circular economy, reduces landfill waste, and promotes community-driven environmental change. This platform aims to ensure that **nothing goes to waste, and every product gets a *second chance!
+3️⃣ Technology Stack:
 
+Backend: Java 17, Spring Boot, Spring Data JPA, Hibernate, Lombok
 
+Frontend: JSP, HTML, CSS
 
-Features and Functionality
-Item Donation by Public:
-Users can donate items by submitting details such as item name, category, location (state, district, city, pin code), and contact number.
+Database: PostgreSQL
 
-Organizer Access:
-Organizers can view all submitted items, review them, and make decisions for reuse or redistribution.
+Build Tools & IDE: Maven, IntelliJ IDEA, GitHub
 
-Location-Based Listing:
-Items are listed along with their location details, helping organizers identify region-specific donations.
+4️⃣ Usage Flow:
+Users submit donation details → Organizers review & manage donations → Items are repurposed or redistributed, ensuring nothing goes to waste and every product gets a second chance!
 
-Sustainability Focus:
-Encourages reducing pollution and supporting environmental welfare through reuse of recyclable materials.
+5️⃣ Prerequisites:
+To run the project:
 
-Dynamic Web Pages (JSP):
-The platform provides simple and intuitive JSP pages for item addition, viewing items, and displaying success messages.
+Java 17, Maven, IntelliJ IDEA installed.
 
-Technology Stack
-Backend:
+PostgreSQL database set up and running.
 
-Java 17
-Spring Boot (Spring Web, Spring Data JPA)
-Hibernate
-Lombok
-Frontend:
-
-HTML, CSS
-JSP (Java Server Pages)
-Database:
-
-PostgreSQL
-Build & Tools:
-
-Maven (build tool)
-IntelliJ IDEA (IDE)
-GitHub (version control & deployment)
-Prerequisites
-Before running the application, make sure you have:
-
-Java Development Kit (JDK): Version 17
-Maven: Installed and configured
-IntelliJ IDEA: Preferred IDE
-PostgreSQL Database: Running locally and configured
+GitHub for version control and deployment.
